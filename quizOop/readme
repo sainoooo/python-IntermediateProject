@@ -1,0 +1,110 @@
+# 🧠 Quiz Brain
+
+A simple **True/False Quiz Game** built with Python using **Object-Oriented Programming (OOP)**.
+
+This project is designed to practice working with **classes, objects, lists, loops, methods, and modules** in Python.
+
+## 🎮 How It Works
+
+The quiz contains a list of True/False questions.
+
+The program:
+
+1. Loads the questions from `data.py`
+2. Creates `Question` objects
+3. Stores them in a question bank
+4. Uses the `QuizBrain` class to control the quiz
+5. Displays each question one by one
+6. Keeps track of the current question
+
+## 📁 Project Structure
+
+```text
+Quiz-Brain/
+│
+├── data.py
+├── main.py
+├── question_model.py
+├── quiz_brain.py
+└── README.md
+```
+
+### `data.py`
+
+Contains the quiz questions and their correct answers.
+
+### `question_model.py`
+
+Contains the `Question` class, which stores:
+
+* Question text
+* Correct answer
+
+### `quiz_brain.py`
+
+Contains the `QuizBrain` class, which manages:
+
+* Current question number
+* Checking if questions are remaining
+* Displaying the next question
+
+### `main.py`
+
+The main program that connects all the components together and runs the quiz.
+
+## 🛠️ Concepts Practiced
+
+* Python Classes & Objects
+* Object-Oriented Programming (OOP)
+* Constructors (`__init__`)
+* Instance Attributes
+* Methods
+* Lists
+* Loops
+* `while` loops
+* `for` loops
+* Modules & Imports
+* Working with dictionaries
+* String formatting
+* Basic program structure
+
+## ▶️ How to Run
+
+Make sure Python is installed on your computer.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/Quiz-Brain.git
+```
+
+Go into the project directory:
+
+```bash
+cd Quiz-Brain
+```
+
+Run the program:
+
+```bash
+python main.py
+```
+
+## 🎯 Purpose
+
+This project was created as a Python practice project while learning **Object-Oriented Programming** and building small command-line applications.
+
+## 🚀 Future Improvements
+
+Some features that could be added in the future:
+
+* Score tracking
+* Showing the correct answer
+* Different categories of questions
+* Randomizing questions
+* A graphical user interface (GUI)
+* A final score screen
+
+---
+
+**Built with 🐍 Python**
