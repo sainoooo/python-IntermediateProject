@@ -1,0 +1,119 @@
+# 🐍 Snake Game
+
+A classic **Snake Game** built with Python and the `turtle` module as part of my journey through **100 Days of Code: The Complete Python Pro Bootcamp by Dr. Angela Yu**.
+
+This project was created during **Day 20 & Day 21** of the course.
+
+## 🎮 About the Game
+
+The goal is simple:
+
+* Control the snake using the arrow keys.
+* Eat the food to increase your score.
+* Each time the snake eats food, it grows longer.
+* Avoid hitting the walls.
+* Avoid hitting the snake's own tail.
+* Try to get the highest score possible!
+
+## 🧠 What I Learned
+
+This project helped me practice several important Python concepts:
+
+* Object-Oriented Programming (OOP)
+* Classes and Objects
+* Class Inheritance
+* Methods and Attributes
+* List Slicing
+* Tuples
+* Loops
+* Conditional Statements
+* Keyboard Event Listeners
+* The `turtle` module
+* Collision Detection
+* Game Loops
+* Managing object state
+
+## 📂 Project Structure
+
+```text
+Snake-Game/
+│
+├── main.py
+├── snake.py
+├── food.py
+├── scoreboard.py
+└── README.md
+```
+
+### `main.py`
+
+Handles the main game loop, screen setup, keyboard controls, and collision detection.
+
+### `snake.py`
+
+Contains the `Snake` class and handles:
+
+* Creating the snake
+* Moving the snake
+* Changing direction
+* Growing the snake
+* Detecting the snake's segments
+
+### `food.py`
+
+Creates the food and randomly places it on the screen.
+
+### `scoreboard.py`
+
+Handles the player's score and displays the game information on the screen.
+
+## 🕹️ Controls
+
+| Key      | Action     |
+| -------- | ---------- |
+| ⬆️ Up    | Move Up    |
+| ⬇️ Down  | Move Down  |
+| ⬅️ Left  | Move Left  |
+| ➡️ Right | Move Right |
+
+## ▶️ How to Run
+
+Make sure you have Python installed.
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+Navigate to the project folder:
+
+```bash
+cd Snake-Game
+```
+
+Run the game:
+
+```bash
+python main.py
+```
+
+## 🛠️ Technologies
+
+* **Python**
+* **Turtle Graphics**
+
+## 📚 Course
+
+This project is based on:
+
+**100 Days of Code: The Complete Python Pro Bootcamp**
+by **Dr. Angela Yu**
+
+Course topics covered in this project include Snake Game development, animation, coordinates, inheritance, collision detection, and list slicing.
+
+## 👩‍💻 Author
+
+**Saina**
+
+This project is part of my Python learning journey and my progress through the 100 Days of Code challenge.
